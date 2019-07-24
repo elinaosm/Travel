@@ -27,7 +27,10 @@
 
 .logo {
   grid-area: logoPlacement;
-  background-color: aquamarine;
+  background-image: url("images/adv.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
 }
 
 .nav {
@@ -42,7 +45,7 @@
 }
 .ad {
   grid-area: ad;
-  background-color: blue;
+  background-image: url();
 }
 
 .hero {
@@ -176,7 +179,7 @@ display: none;
     }
 .container {
   display: grid;
-  grid-template-rows: 120px 120px 120px 120px 120px;
+  grid-template-rows: 120px 120px 120px 120px 120px 120px;
   grid-template-columns: 50% 50%;
   grid-template-areas:
   "header"
@@ -186,7 +189,7 @@ display: none;
   "sidebar"
   "footer";
 }
-header {
+.header {
   grid-area: header;
   grid-template-rows: auto;
   grid-template-columns: 20% 50% 30%;
