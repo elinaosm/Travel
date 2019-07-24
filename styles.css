@@ -12,7 +12,6 @@
     body {
       background-color: #F09A9D; /* Red */
     }
-  }
   
   /* Tablet Styles */
   @media only screen and (min-width: 401px) and (max-width: 992px) {
