@@ -27,10 +27,6 @@
 
 .logo {
   grid-area: logoPlacement;
-  background-image: url("images/adv.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  position: relative;
 }
 
 .nav {
@@ -45,7 +41,6 @@
 }
 .ad {
   grid-area: ad;
-  background-image: url();
 }
 
 .hero {
@@ -177,18 +172,18 @@ display: none;
     body {
       background-color: #B2D6FF; /* Blue */
     }
-.container {
-  display: grid;
-  grid-template-rows: 120px 120px 120px 120px 120px 120px;
-  grid-template-columns: 50% 50%;
-  grid-template-areas:
-  "header"
-  "hero"
-  "ad"
-  "desktop"
-  "sidebar"
-  "footer";
-}
+    .container {
+      display: grid;
+      grid-template-rows: 60px 180px 120px 120px 120px 120px;
+      grid-template-columns: 100%;
+      grid-template-areas:
+      "header"
+      "hero"
+      "desktop"
+      "ad"
+      "sidebar"
+      "footer";
+    }
 .header {
   grid-area: header;
   grid-template-rows: auto;
@@ -207,6 +202,17 @@ display: none;
 .tools {
   grid-area: toolsPlacement;
   background-color: brown;
+}
+.afeature {
+  display: none;
+}
+.listing {
+  display: none;
+  }
+.sidebar {
+  grid-area: sidebar;
+  display: grid;
+  background-color: purple;
 }
   }
 }
