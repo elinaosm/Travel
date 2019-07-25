@@ -73,6 +73,19 @@
 .tabletAd {
   display: none;
 }
+
+.dekstop {
+  display: none;
+}
+
+.desktopFeature {
+  display: none;
+}
+
+.desktopListing {
+  display: none;
+
+}
 .afeature {
   grid-area: afeature;
   background-color: pink;
@@ -213,6 +226,20 @@ display: none;
   grid-area: sidebar;
   display: grid;
   background-color: purple;
+}
+.desktop {
+  grid-area: desktop;
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: 50% 50%;
+  grid-template-areas:
+  "featurePlacement listingPlacement";
+}
+.desktopFeature {
+  grid-area: featurePlacement;
+}
+.desktopListing {
+  grid-area: listingPlacement;
 }
   }
 }
