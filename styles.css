@@ -169,7 +169,7 @@
 .header {
   grid-area: header;
   grid-template-rows: auto;
-  grid-template-columns: 20% 1fr 250px;
+  grid-template-columns: 20% 1fr 395px;
   grid-template-areas: "logoPlacement navPlacement toolsPlacement";
 }
 
