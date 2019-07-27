@@ -29,11 +29,15 @@
 .logo {
   grid-area: logoPlacement;
   background-image: url(images/logo.jpg);
-  background-size: cover;
+  background-size: contain;
   background-position: center center;
   background-repeat: no-repeat;
   background-blend-mode: overlay;
   position: relative;
+  display: grid;
+  width: 100%;
+  height: 100%;
+
 }
 
 .nav {
