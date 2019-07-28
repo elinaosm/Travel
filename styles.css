@@ -134,7 +134,7 @@ form.example::after {
   display: grid;
   background-image: url(images/calls.jpg);
   object-fit: cover;
-  object-position: inherit;
+  /*object-position:*/
   background-repeat: no-repeat;
   width: auto;
   height: auto;
