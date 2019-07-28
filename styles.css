@@ -397,7 +397,7 @@ ul.hashtags li {
   background-image: url(images/airport\ \(1\).jpg);
   background-size: cover;
   background-position: center;
-  background-repeat: cover;
+  /*background-repeat: cover;*/
   position: relative;
   display: grid;
 }
