@@ -6,7 +6,7 @@
 
 .container {
   display: grid;
-  grid-template-rows: 130px 120px 180px 180px 500px 70px;
+  grid-template-rows: 130px 120px 180px 180px 500px 80px;
   grid-template-areas:
   "header"
   "hero"
