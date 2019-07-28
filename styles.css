@@ -5,7 +5,7 @@
   }
  .container {
    display: grid;
-   grid-template-rows: 120px 120px 180px 200px 520px 50px;
+   grid-template-rows: 130px 120px 180px 180px 520px 50px;
    grid-template-areas:
    "header"
    "hero"
@@ -76,10 +76,11 @@ ul.topnav li a.active {background-color: pink;}
 .ad {
   grid-area: ad;
   display: grid;
-  background-image: url(images/virgin-holidays-logo-2017.jpg);
+  background-image: url(images/airs.jpg);
   object-fit: cover;
   object-position: center;
   background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .hero {
@@ -107,6 +108,7 @@ ul.topnav li a.active {background-color: pink;}
   text-align: center;
   font-size: 40px;
   padding-top: 30px;
+  background-size: cover;
 }
 
 .sidebar {
@@ -121,6 +123,7 @@ ul.topnav li a.active {background-color: pink;}
   background-repeat: no-repeat;
   width: auto;
   height: auto;
+  background-size: cover;
 }
 
 .listing {
@@ -130,6 +133,13 @@ ul.topnav li a.active {background-color: pink;}
   text-align: center;
   text-decoration: black;
   font-weight: bold;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+.h2 {
+  text-align: justify;
+  padding-right: 10px;
+  padding-left: 10px;
 }
 .footer {
   grid-area: footer;
